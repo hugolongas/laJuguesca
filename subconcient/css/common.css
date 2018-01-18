@@ -1,0 +1,216 @@
+body {
+	background-image:url(../img/web/fons.png);
+	background-color:#F2F2F2;
+	margin:0;
+}
+
+#content {
+	width:100%;
+	min-height:100%;
+	font-family:'Helvetica Neue', sans-serif;
+	font-size:inherit;
+	font-style:inherit;
+	font-variant:inherit;
+	font-weight:normal;
+	color:#000000;
+}
+
+/*Side*/
+
+#side {
+	width:50px;
+	max-height:100%;
+	background-color:#FFFFFF;
+	float:left;
+	margin-right:40px;
+}
+
+/*End side*/
+
+/*header*/
+
+#header {	
+	height:90px;
+	background-color:white;
+}
+#menuNav{
+	background-color: white;
+}
+#menusNavabar{
+	margin-top:10px;
+	background-color:white;
+	border:0px;
+	height:50px;
+
+}
+
+/*End header*/
+
+/* Content*/
+#content_body {	
+	background-color:#FFFFFF;
+	float:left;
+}
+
+
+
+#titulo {
+	text-align:center;
+	clear:both;
+	position:static;
+	margin-bottom:30px;
+	margin-left:0;
+	top:50px;
+	width:500px;
+	margin-top:30px;
+}
+
+#hist {
+	font-family:'Crafty Girls', cursive;
+}
+
+#qsom {
+	font-family:'Special Elite', cursive;
+	margin-top:5px;
+}
+
+#colles {
+	font-family:'Poiret One', cursive;
+}
+
+#enguany {
+	font-family:'Waiting for the Sunrise', sans-serif, 'Lucida Handwriting';
+	font-size:14pt;
+	top:-5px;
+	position:relative;
+}
+
+#anteriors {
+	font-family:Playball, cursive;
+	font-size:13pt;
+	display:inline;
+	font-weight:lighter;
+}
+
+#contact {
+	font-family:Menlo, sans-serif;
+}
+
+.parrafo::first-letter {
+	font-family:'Fredericka the Great', cursive;
+	display:inline-block;
+	float:left;
+	font-size:72px;
+	margin-top:0;
+	margin-right:5px;
+	margin-left:5px;
+	position:relative;
+	top:-9px;
+	text-indent:0;
+	letter-spacing:0;
+	line-height:1em;
+	text-align:inherit;
+	text-rendering:inherit;
+}
+
+.menu {
+	margin-left:8px;
+	height:28px;
+	width:80px;
+	text-align:center;
+	color:#000000;
+	font-family:'Helvetica Neue', serif;
+	font-variant:inherit;
+	font-weight:100;
+	line-height:inherit;
+	float:left;
+	position:inherit;
+	padding-top:8px;
+	margin-right:8px;
+}
+
+.menu:hover {
+	text-align:center;
+	color:#FFFFFF;
+	font-family:'Helvetica Neue', serif;
+	font-weight:bold;
+	line-height:inherit;
+	background-attachment:inherit;
+	background-image:url(../img/web/barra%20menu_h_hover.png);
+	background-repeat-x:repeat;
+	background-repeat-y:no-repeat;
+	background-repeat:repeat-x;
+}
+
+.menu_act {
+	text-align:center;
+	color:#FFFFFF;
+	font-family:'Helvetica Neue', serif;
+	font-weight:bold;
+	line-height:inherit;
+	background-attachment:inherit;
+	background-image:url(../img/barra%20menu_h_hover.png);
+	background-repeat-x:repeat;
+	background-repeat-y:no-repeat;
+	background-repeat:repeat-x;
+}
+
+
+#lianca {
+	width:50px;
+	margin-top:259px;
+}
+
+.links {
+	width:40px;
+	height:40px;
+	left:5px;
+	position:relative;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.parrafo::first-letter {
+	font-family:'Fredericka the Great', cursive;
+	display:inline-block;
+	float:left;
+	font-size:36px;
+	margin-top:10px;
+	margin-right:5px;
+	margin-left:5px;
+	position:relative;
+	text-indent:0;
+	letter-spacing:0;
+	line-height:0.5em;
+	text-align:inherit;
+	text-rendering:inherit;
+}
+
+@media only screen and (max-width:320px){
+#header {
+    background-color: white;
+    height: 50px;
+}
+#logo{
+	    width: 155px;
+}
+.links {
+    width: 25px;
+    height: 25px;
+    left: 5px;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#side {
+	width:30px;
+	max-height:100%;
+	background-color:#FFFFFF;
+	float:left;
+	margin-right:20px;
+}
+#lianca {
+    width: 25px;
+    margin-top: 50px;
+}
+}

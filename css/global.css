@@ -1,0 +1,179 @@
+body {
+	background-image:url(../img/global/fons.png);
+	background-size:105px;
+	background-color:#000000;
+	height:100%;
+	width:100%;
+	margin:0;
+}
+
+#content {
+	width:1070px;
+	font-family:'Helvetica Neue', sans-serif;
+	font-size:inherit;
+	font-style:inherit;
+	font-variant:inherit;
+	font-weight:normal;
+	color:#000000;
+	position:relative;
+	margin:5% auto auto auto;
+}
+
+/*.barra lateral*/
+
+#side {
+	width:50px;
+	height:640px;
+	background-color:#000000;
+	float:left;
+	margin-right:20px;
+}
+
+.links {
+	width:40px;
+	height:40px;
+	left:5px;
+	position:relative;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#lianca {
+	width:50px;
+	margin-top:309px;
+}
+
+/*.contenido*/
+
+#header {
+	width:100%;
+	height:95px;
+	margin-bottom:10px;
+}
+
+#logo {
+	text-align:center;
+	height:95px;
+	width:400px;
+	position:inherit;
+}
+
+#sidebar {
+	float:right;
+	width:576px;
+	height:35px;
+	position:relative;
+	right:10px;
+	background-image:url(../img/barra%20menu_h.png);
+	background-color:transparent;
+	background-size:inherit;
+	top:47px;
+}
+
+.menu {
+	margin-left:8px;
+	height:28px;
+	width:150px;
+	text-align:center;
+	color:#000000;
+	font-family:'Helvetica Neue', serif;
+	font-variant:inherit;
+	font-weight:100;
+	line-height:inherit;
+	float:left;
+	position:inherit;
+	padding-top:8px;
+	margin-right:8px;
+}
+
+.menu:hover {
+	text-align:center;
+	color:#FFFFFF;
+	font-family:'Helvetica Neue', serif;
+	font-weight:bold;
+	line-height:inherit;
+	background-attachment:inherit;
+	background-repeat-x:repeat;
+	background-repeat-y:no-repeat;
+	background-repeat:repeat-x;
+	background-image:url(../img/barra%20menu_h_hover.png);
+}
+
+#qsom {
+	font-family:'Special Elite', cursive;
+	margin-top:5px;
+	color:#FFFFFF;
+}
+
+/*.fondo*/
+
+#content_body {
+	width:1000px;
+	height:640px;
+	position:relative;
+	float:left;
+	background-image:url(../img/global/arris.jpg);
+	background-size:1000px;
+	background-color:#000000;
+}
+
+/*.canvas*/
+
+.canvas {
+	font-family:sans-serif;
+	position:relative;
+	font-size:12pt;
+	font-weight:bold;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#cont_canvas {
+	width:800px;
+	position:relative;
+	height:500px;
+	top:17.5px;
+	margin:auto;
+}
+
+#risk {
+	width:650px;
+	position:fixed;
+	top:50px;
+	right:10px;
+}
+
+.tria_color {
+	text-align:left;
+	width:200px;
+	position:relative;
+	clear:none;
+	float:left;
+	padding-top:5px;
+}
+
+#controls {
+	text-align:left;
+	line-height:1.5em;
+	font-size:12px;
+	width:200px;
+	font-family:sans-serif;
+	position:relative;
+	clear:both;
+	height:auto;
+	top:10px;
+}
+
+#botones {
+	text-align:center;
+	line-height:1.5em;
+	font-size:12px;
+	width:100%;
+	font-family:sans-serif;
+	position:relative;
+	clear:both;
+	height:auto;
+	top:10px;
+	background-color:#FFFF66;
+}
+

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/login.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/login.js"></script>
+</head>
+<body>
+	<div class="signin-form">
+		<div class="container" id="login-container">
+			<form class="form-signin" method="post" id="login-form">
+				<h2 class="form-signin-heading">La Juguesca</h2>
+				<h3 class="form-signin-heading">Gestió de Continguts</h3><hr />
+				<div id="error">
+				<!-- error ! -->
+				</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Usuario" name="user" id="user" />
+						<span id="check-e"></span>
+					</div>
+					<div class="form-group">
+						<input type="password" class="form-control" placeholder="Contraseña" name="password" id="password" />
+					</div>
+					<hr />        
+        <div class="form-group">
+            <button type="submit" class="btn btn-default" name="btn-login" id="btn-login">
+      <span class="glyphicon glyphicon-log-in"></span> &nbsp; Conectar
+   </button> 
+        </div>        
+      </form>
+	
+    </div>
+	<div id="loading">		
+		<div id="imgLoading">
+			<img src="ajax-loader.gif"/>
+		</div>
+	</div>
+    
+</div>
+</body>
+</html>

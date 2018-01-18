@@ -1,0 +1,79 @@
+#contenidor {
+	width:995px;
+	height:520px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#int {
+	height:100%;
+	width:995px;
+	overflow:auto;
+}
+
+#hist_text {
+	text-align:justify;
+	width:970px;
+	color:#000000;
+	margin-left:7.5px;
+}
+
+/*.info*/
+
+.titol_prova {
+	font-family:'Special Elite', cursive;
+	height:30px;
+	font-size:17pt;
+	margin-left:0;
+	padding-top:15px;
+	margin-bottom:0;
+	position:relative;
+	line-height:2em;
+}
+
+.proves {
+	color:#000000;
+	position:relative;
+}
+
+.tex {
+	font-family:'Poiret One', 'Helvetica Neue', Arial;
+	color:#000000;
+	text-decoration:none;
+}
+
+.tex:hover {
+	font-family:'Poiret One', 'Helvetica Neue', Arial;
+	color:#000000;
+	text-decoration:underline;
+}
+
+.subtitol_prova {
+	font-family:'Waiting for the Sunrise', sans-serif, 'Lucida Handwriting';
+	text-align:justify;
+	margin-top:0;
+	margin-left:0;
+	height:10px;
+	position:relative;
+	top:0;
+	padding-top:5px;
+	font-size:15pt;
+	line-height:1em;
+	border-top:2px solid #000000;
+}
+
+.hora_prova {
+	font-family:'Poiret One', cursive;
+	text-align:justify;
+	margin-top:-10px;
+	margin-left:0;
+	height:20px;
+	position:relative;
+	top:0;
+	font-size:15pt;
+	line-height:1em;
+	background-color:#000000;
+	color:#FFFFFF;
+	border-top:2px solid #000000;
+}
+

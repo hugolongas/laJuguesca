@@ -1,0 +1,7 @@
+[10-Jul-2017 18:11:32 Europe/Madrid] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home/rasendis/public_html/lajuguesca/gestio/gestioEnguany.php on line 74
+[10-Jul-2017 18:14:09 Europe/Madrid] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home/rasendis/public_html/lajuguesca/gestio/gestioEnguany.php on line 74
+[10-Jul-2017 18:14:21 Europe/Madrid] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home/rasendis/public_html/lajuguesca/gestio/gestioEnguany.php on line 74
+[28-Aug-2017 19:58:45 Europe/Madrid] PHP Parse error:  syntax error, unexpected '?>' in /home/rasendis/public_html/lajuguesca/gestio/gestioQuestionari.php on line 105
+[28-Aug-2017 19:58:54 Europe/Madrid] PHP Parse error:  syntax error, unexpected '?>' in /home/rasendis/public_html/lajuguesca/gestio/gestioQuestionari.php on line 105
+[28-Aug-2017 19:59:11 Europe/Madrid] PHP Parse error:  syntax error, unexpected '?>' in /home/rasendis/public_html/lajuguesca/gestio/gestioQuestionari.php on line 105
+[28-Aug-2017 22:01:24 Europe/Madrid] PHP Parse error:  syntax error, unexpected '?>' in /home/rasendis/public_html/lajuguesca/gestio/gestioQuestionari.php on line 105

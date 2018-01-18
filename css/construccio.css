@@ -1,0 +1,47 @@
+#contenidor {
+	width:995px;
+	height:520px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#int {
+	height:100%;
+	margin-top:auto;
+	width:995px;
+	float:left;
+	overflow:auto;
+	background-image:url(../img/reforma/bg%2dtile.png);
+}
+
+h1 {
+	font-family:'Gravitas One';
+	font-size:50px;
+	text-align:center;
+	color:#F8F11C;
+	font-weight:inherit;
+	word-spacing:inherit;
+	height:40px;
+	position:relative;
+	line-height:0.9em;
+	background-color:transparent;
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:240px;
+}
+
+#rayas {
+	width:100%;
+	height:180px;
+	background-color:#FFFF00;
+	background-image:url(../img/reforma/rayas.png);
+	position:relative;
+	clear:both;
+	text-align:center;
+	background-size:inherit;
+	top:0;
+}
+
+/*.info*/
+

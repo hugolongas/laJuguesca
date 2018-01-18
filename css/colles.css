@@ -1,0 +1,319 @@
+#contenidor {
+	width:980px;
+	height:525px;
+	margin:auto;
+}
+
+#info_colles {
+	height:150px;
+	white-space:pre-line;
+	text-align:justify;
+	position:relative;
+	margin-top:0;
+	margin-bottom:10px;
+	clear:both;
+	padding:20px;
+}
+
+#container {
+	position:relative;
+	margin-top:0;
+	margin-right:auto;
+	margin-left:auto;
+	height:360px;
+	padding:20px;
+}
+.tab {
+	background-origin:initial;
+	background-clip:initial;
+	background-color:#F9F9F9;
+	-webkit-border-top-left-radius:0.25em;
+	border-top-left-radius:0.25em;
+	-o-border-top-left-radius:0.25em;
+	-ms-border-top-left-radius:0.25em;
+	-moz-border-radius-topleft:0.25em;
+	cursor:pointer;
+	display:block;
+	font-size:1em;
+	height:35px;
+	text-align:center;
+	line-height:2.5em;
+	font-family:'Special Elite', cursive;
+	width:140px;
+	-webkit-border-bottom-left-radius:0.25em;
+	border-bottom-left-radius:0.25em;
+	-o-border-bottom-left-radius:0.25em;
+	-ms-border-bottom-left-radius:0.25em;
+	-moz-border-radius-bottomleft:0.25em;
+	position:relative;
+	float:right;
+	margin-bottom:9px;
+	cursor:pointer;
+}
+
+.tab-bisky {
+	background-color:#FF9900;
+	color:#000000;
+	z-index:6;
+}
+
+.tab-cant {
+	background-color:#CC3333;
+	color:#FFFFFF;
+	z-index:6;
+}
+
+.tab-conc {
+	background-color:#000099;
+	color:#FFFFFF;
+	z-index:6;
+}
+
+.tab-skan {
+	background-color:#E9E838;
+	color:#000000;
+	z-index:6;
+}
+
+.tab-sport {
+	background-color:#000000;
+	color:#FFFFFF;
+	z-index:6;
+}
+
+/*hover*/
+#bisky:hover {
+	background-color:#FF9900;
+	color:#000000;
+	z-index:6;
+}
+#cant:hover {
+	background-color:#CC3333;
+	color:#FFFFFF;
+	z-index:6;
+}
+#conc:hover {
+	background-color:#000099;
+	color:#FFFFFF;
+	z-index:6;
+}
+#skan:hover {
+	background-color:#E9E838;
+	color:#000000;
+	z-index:6;
+}
+#sport:hover {
+	background-color:#000000;
+	color:#FFFFFF;
+	z-index:6;
+}
+
+#barra {
+	position:relative;
+	width:140px;
+	height:205px;
+	top:0;
+	float:left;
+	right:0;
+}
+
+#inform {
+	height:205px;
+	width:829px;
+	top:0;
+	left:0;
+	position:relative;
+	background-color:#000000;
+	float:left;
+}
+
+#cont-bisky {
+	height:208px;
+	width:837px;
+	left:0;
+	padding-top:0;
+	position:absolute;
+	float:right;
+	top:0;
+	display:none;
+	border-left:3px solid #FF9900;
+	border-top:3px solid #FF9900;
+}
+
+#cont-cant {
+	height:208px;
+	width:837px;
+	top:0;
+	left:0;
+	padding-top:0;
+	position:absolute;
+	display:none;
+	border-left:3px solid #CC3333;
+	border-top:3px solid #CC3333;
+}
+
+#cont-conc {
+	height:208px;
+	width:837px;
+	top:0;
+	left:0;
+	padding-top:0;
+	position:absolute;
+	display:none;
+	border-left:3px solid #000099;
+	border-top:3px solid #000099;
+}
+
+#cont-skan {
+	height:208px;
+	width:837px;
+	top:0;
+	left:0;
+	padding-top:0;
+	position:absolute;
+	display:none;
+	border-left:3px solid #E9E838;
+	border-top:3px solid #E9E838;
+}
+
+#cont-sport {
+	height:208px;
+	width:837px;
+	top:0;
+	left:0;
+	padding-top:0;
+	position:absolute;
+	float:right;
+	display:none;
+	border-left:3px solid #000000;
+	border-top:3px solid #000000;
+}
+
+/*info */
+
+#no_son {
+	opacity:1;
+	text-align:justify;
+	background-color:#FFFFFF;
+	top:5px;
+	left:5px;
+	overflow:auto;
+}
+
+#actuals {
+	opacity:1;
+	text-align:justify;
+	background-color:#FFFFFF;
+	height:310px;
+	overflow:auto;
+	width:970px;
+	top:5px;
+	left:5px;
+	float:inherit;
+	position:absolute;
+	padding-top:0;
+}
+
+/*info participants actuals*/
+
+#participants {
+	display:inline-block;
+	width:950px;
+	position:relative;
+	height:1000px;
+	float:left;
+}
+
+#texte {
+	display:inline-block;
+	width:950px;
+	position:relative;
+	height:auto;
+	float:left;
+}
+
+.espai {
+	position:relative;
+	height:100%;
+	float:left;
+	display:inline-block;
+	background-color:#FFFFFF;
+	padding-top:10px;
+	padding-left:10px;
+	width:827px;
+}
+
+.foto {
+	height:192px;
+	width:192px;
+}
+
+.nom {
+	font-weight:200;
+	font-family:'Poiret One', 'Helvetica Neue', Arial;
+	color:#000000;
+	text-align:left;
+	font-size:18px;
+	line-height:1.5em;
+	padding-top:10px;
+}
+
+.tex {
+	font-family:'Poiret One', 'Helvetica Neue', Arial;
+	text-decoration:none;
+	color:#000000;
+}
+
+.tex:hover {
+	font-family:'Poiret One', 'Helvetica Neue', Arial;
+	color:#000000;
+	text-decoration:underline;
+}
+
+.nom::first-letter {
+	font-family:'Fredericka the Great', cursive;
+	display:inline-block;
+	float:left;
+	font-size:36px;
+	margin-right:5px;
+	margin-left:5px;
+	position:relative;
+	text-indent:0;
+	letter-spacing:0;
+	line-height:0.5em;
+	text-align:inherit;
+	text-rendering:inherit;
+}
+
+.cap_de {
+	font-weight:100;
+	font-family:'Helvetica Neue', Arial;
+	color:#000000;
+	text-align:left;
+	padding-left:5px;
+	font-size:16px;
+	line-height:0em;
+	height:20px;
+	padding-right:0;
+}
+
+.frase {
+	font-weight:100;
+	font-family:'Helvetica Neue', Arial;
+	color:#000000;
+	display:inline-block;
+	text-align:left;
+	margin-right:auto;
+	margin-left:auto;
+	padding-left:10px;
+	font-size:16px;
+	font-style:italic;
+	line-height:1em;
+}
+.frase_oculta {
+	display:none;
+}
+td{
+	padding: 10px;
+}
+

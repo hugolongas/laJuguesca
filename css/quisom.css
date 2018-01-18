@@ -1,0 +1,104 @@
+#info_organitzacio {
+	white-space:pre-line;
+	text-align:justify;
+	position:relative;
+	margin-top:0;
+	margin-bottom:5px;
+	padding: 20px;
+}
+
+#container {
+	height:360px;
+	padding:5px;
+}
+
+/*tab-content*/
+.tab-content{
+	overflow-Y:auto;
+	overflow-X:hidden;
+	max-height:100%;
+	padding:10px;
+}
+.marc_foto{
+background-image:url(../img/perfils/mascara_membre.png);
+background-size:cover;
+position:absolute;
+	width:150px;
+	height:150px;
+}
+
+/* END tab-content*/
+
+
+/*info participants actuals*/
+
+
+#texte {
+	display:inline-block;
+	width:950px;
+	position:relative;
+	height:auto;
+	float:left;
+}
+
+.persones {
+	cursor:pointer;
+}
+
+.foto {
+	width:150px;
+	height:150px;
+}
+
+.nom {
+	font-weight:200;
+	font-family:'Poiret One', 'Helvetica Neue', Arial;
+	color:#000000;
+	text-align:left;
+	padding-left:10px;
+	font-size:18px;
+	padding-bottom:0;
+	line-height:1.5em;
+}
+
+.any {
+	display:none;
+}
+
+.frase {
+	display:none;
+	text-align:left;
+}
+/*Modal*/
+#modal_imgMembre{
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#modal_nomMembre{
+	
+}
+
+#modal_anyIniciMembre{
+	
+}
+
+#modal_anyFiMembre{
+	
+}
+
+#modal_fraseMembre{
+	
+}
+.text{
+	font-weight:bold;
+}
+.modal_marc_foto{
+	background-image:url(../img/perfils/mascara_membre.png);
+	background-size:cover;
+	position:absolute;
+	width:200px;
+	height:200px;
+}
+
+/*Fi Modal*/

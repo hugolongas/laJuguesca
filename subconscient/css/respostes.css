@@ -1,0 +1,46 @@
+body {
+}
+
+#content {
+	width:100%;
+	font-family:'Helvetica Neue', sans-serif;
+	font-size:inherit;
+	font-style:inherit;
+	font-variant:inherit;
+	font-weight:normal;
+	color:#000000;
+}
+
+.parrafo::first-letter {
+	font-family:'Fredericka the Great', cursive;
+	display:inline-block;
+	float:left;
+	font-size:72px;
+	margin-top:0;
+	margin-right:5px;
+	margin-left:5px;
+	position:relative;
+	top:-9px;
+	text-indent:0;
+	letter-spacing:0;
+	line-height:1em;
+	text-align:inherit;
+	text-rendering:inherit;
+}
+
+
+.parrafo::first-letter {
+	font-family:'Fredericka the Great', cursive;
+	display:inline-block;
+	float:left;
+	font-size:36px;
+	margin-top:10px;
+	margin-right:5px;
+	margin-left:5px;
+	position:relative;
+	text-indent:0;
+	letter-spacing:0;
+	line-height:0.5em;
+	text-align:inherit;
+	text-rendering:inherit;
+}

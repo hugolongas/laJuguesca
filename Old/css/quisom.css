@@ -1,0 +1,231 @@
+#contenidor {
+	width:980px;
+	height:525px;
+	margin:auto;
+}
+
+#info_organitzacio {
+	height:150px;
+	white-space:pre-line;
+	text-align:justify;
+	position:relative;
+	margin-top:0;
+	margin-bottom:10px;
+	clear:both;
+}
+
+#container {
+	position:relative;
+	margin-top:0;
+	margin-right:auto;
+	margin-left:auto;
+	height:360px;
+}
+
+#container input {
+	height:2.5em;
+	visibility:hidden;
+}
+
+#container label {
+	background-origin:initial;
+	background-clip:initial;
+	background-color:#F9F9F9;
+	-webkit-border-top-left-radius:0.25em;
+	border-top-left-radius:0.25em;
+	-o-border-top-left-radius:0.25em;
+	-ms-border-top-left-radius:0.25em;
+	-moz-border-radius-topleft:0.25em;
+	-webkit-border-top-right-radius:0.25em;
+	border-top-right-radius:0.25em;
+	-o-border-top-right-radius:0.25em;
+	-ms-border-top-right-radius:0.25em;
+	-moz-border-radius-topright:0.25em;
+	color:#000000;
+	cursor:pointer;
+	display:block;
+	float:left;
+	font-size:1em;
+	height:30px;
+	text-align:center;
+	padding-left:1em;
+	padding-right:1em;
+	line-height:2.5em;
+	font-family:'Special Elite', cursive;
+}
+
+#container input:hover + label {
+	background-origin:initial;
+	background-clip:initial;
+	background-color:#DDDDDD;
+	color:#000000;
+	height:35px;
+}
+
+#container input:checked + label {
+	background-origin:initial;
+	background-clip:initial;
+	background-color:#000000;
+	color:#FFFFFF;
+	position:relative;
+	z-index:6;
+	font-weight:bold;
+	height:34px;
+}
+
+#pest {
+	position:relative;
+	width:980px;
+	height:325px;
+	top:0;
+	left:0;
+}
+
+#pest-1 {
+	z-index:5;
+	height:315px;
+	width:976px;
+	top:0;
+	left:0;
+	position:absolute;
+	padding-top:0;
+	border-left:3px solid #000000;
+	border-top:3px solid #000000;
+}
+
+#pest-2 {
+	z-index:5;
+	height:315px;
+	width:975px;
+	position:absolute;
+	border-left:3px solid #000000;
+	border-top:3px solid #000000;
+}
+
+#pest div {
+	z-index:-100;
+}
+
+#container input#tab-1:checked ~ #pest #pest-1, #container input#tab-2:checked ~ #pest #pest-2 {
+	opacity:1;
+	z-index:100;
+}
+
+/*info */
+
+.parrafo2::first-letter {
+	font-family:'Fredericka the Great', cursive;
+	display:inline-block;
+	float:left;
+	font-size:36px;
+	margin-top:10px;
+	margin-right:5px;
+	margin-left:5px;
+	position:relative;
+	text-indent:0;
+	letter-spacing:0;
+	line-height:0.5em;
+	text-align:inherit;
+	text-rendering:inherit;
+}
+
+#no_son {
+	opacity:1;
+	text-align:justify;
+	background-color:#FFFFFF;
+	width:970px;
+	height:310px;
+	top:5px;
+	left:5px;
+	position:absolute;
+	overflow:auto;
+}
+
+#actuals {
+	opacity:1;
+	text-align:justify;
+	background-color:#FFFFFF;
+	height:310px;
+	overflow:auto;
+	width:970px;
+	top:5px;
+	left:5px;
+	float:inherit;
+	position:absolute;
+	padding-top:0;
+}
+
+/*info participants actuals*/
+
+#participants {
+	display:inline-block;
+	width:950px;
+	position:relative;
+	height:500px;
+	float:left;
+}
+
+#texte {
+	display:inline-block;
+	width:950px;
+	position:relative;
+	height:auto;
+	float:left;
+}
+
+.persones {
+	position:relative;
+	width:25%;
+	height:80px;
+	top:0;
+	float:left;
+	display:inline-block;
+	padding-bottom:10px;
+	padding-top:5px;
+}
+
+.foto {
+	height:80px;
+	padding-bottom:10px;
+	width:80px;
+	margin-top:0;
+}
+
+.nom {
+	font-weight:200;
+	font-family:'Poiret One', 'Helvetica Neue', Arial;
+	color:#000000;
+	text-align:left;
+	padding-left:10px;
+	font-size:18px;
+	padding-bottom:0;
+	line-height:1.5em;
+}
+
+.any {
+	font-weight:100;
+	font-family:'Helvetica Neue', Arial;
+	color:#000000;
+	text-align:left;
+	padding-left:10px;
+	font-size:16px;
+	line-height:0em;
+	padding-bottom:16px;
+}
+
+.frase {
+	font-weight:100;
+	font-family:'Helvetica Neue', Arial;
+	color:#000000;
+	display:inline-block;
+	text-align:left;
+	margin-right:auto;
+	margin-left:auto;
+	padding-right:30px;
+	padding-left:10px;
+	font-size:16px;
+	padding-bottom:2px;
+	font-style:italic;
+	line-height:1em;
+}
+

@@ -1,0 +1,6 @@
+[28-Aug-2017 15:37:22 Europe/Madrid] PHP Parse error:  syntax error, unexpected '$respostes' (T_VARIABLE), expecting '(' in /home/rasendis/public_html/lajuguesca/subconcient/codigo/GuardaRespostes.php on line 22
+[28-Aug-2017 15:38:32 Europe/Madrid] PHP Parse error:  syntax error, unexpected '$respostes' (T_VARIABLE), expecting '(' in /home/rasendis/public_html/lajuguesca/subconcient/codigo/GuardaRespostes.php on line 22
+[28-Aug-2017 17:07:52 Europe/Madrid] PHP Fatal error:  Call to a member function query() on null in /home/rasendis/public_html/lajuguesca/subconcient/codigo/GuardaRespostes.php on line 29
+[28-Aug-2017 17:08:32 Europe/Madrid] PHP Fatal error:  Call to a member function query() on null in /home/rasendis/public_html/lajuguesca/subconcient/codigo/GuardaRespostes.php on line 29
+[28-Aug-2017 17:11:03 Europe/Madrid] PHP Fatal error:  Call to a member function query() on null in /home/rasendis/public_html/lajuguesca/subconcient/codigo/GuardaRespostes.php on line 29
+[28-Aug-2017 17:11:05 Europe/Madrid] PHP Fatal error:  Call to a member function query() on null in /home/rasendis/public_html/lajuguesca/subconcient/codigo/GuardaRespostes.php on line 29

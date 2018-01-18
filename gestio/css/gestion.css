@@ -1,0 +1,77 @@
+/* header */
+#header{
+	width:100%;
+	height:60px;
+}
+#titulo{
+	float:left;
+	margin-left:2px;
+	font-size:20px;
+}
+#userInfo{
+	float: right;
+	margin-right: 20px;
+}
+#logOut{
+	
+}
+/* header END */
+
+/* side bar */
+#side-menu{
+	float:left;
+	width:200px;
+}
+.seccion{
+	cursor:pointer;
+}
+/* side bar END */
+/* Content */
+#content{
+	float:left;
+}
+#visorPagina{
+	width:100%;
+	height:100%;
+}
+/* Content END */
+
+
+/* Pop-up validado/Error */
+
+#contError, #contOk{
+	width: 420px;
+	height: 150px;
+	position: fixed;
+	top: 75px;
+	left: 25%;
+	display:none;
+}
+#errorCarga, #CargaCorrecta{
+	width: 400px;
+	height: 80px;
+	overflow-y: scroll;
+}
+#contErrorOk, #contOkOk{
+	margin-left: 150px;
+	width: 60px;
+	margin-top: 10px;
+}
+#loader{
+	position:fixed;
+	background-color:black;
+	opacity:0.7;
+	width:100%;
+	height:100%;
+	top:0px;
+	display:none;
+}
+#imgLoading{
+	margin:auto;
+	margin-top:20%;
+	width:150px;
+	height:150px;
+}
+/* Pop-up validado/Error END */
+
+

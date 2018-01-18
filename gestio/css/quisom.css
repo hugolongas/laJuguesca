@@ -1,0 +1,39 @@
+.persona{
+	margin:2px;
+	padding:5px;
+	border:1px solid black;
+}
+
+.imgCont{
+	float:left;
+	width:30%;
+}
+
+.infoGeneral{
+	float:left;
+	width:38%;
+	margin-left:2%;
+}
+.infoOpcions{
+	float: left;
+	width: 20%;
+}
+
+.titInfo{
+	display: block;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.textInfo{
+	display:block;
+}
+
+.infoFrase{
+	clear:both;
+	overflow-y:auto;
+}
+#grid{
+	margin:0px;
+	padding:0px;
+}
